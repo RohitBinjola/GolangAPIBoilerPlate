@@ -1,0 +1,14 @@
+version: 1.0.0
+seeddata: false
+Logging:
+    stdout: false
+    level: debug
+    path: applog.log
+server:
+    port: ':7004'
+database:
+    host: ''
+    port: 3306
+    username: 'admin'
+    password: '123'
+    name: 'demo_db'
